@@ -1,0 +1,19 @@
+{
+  "name": "ct80a0000_assignment2",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
