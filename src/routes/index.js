@@ -19,7 +19,6 @@ const updateBookAvailability = (bookId) => {
     `).run(activeLoan ? 0 : 1, bookId)
 }
 
-// Päivitetään kirjojen saatavuus palvelimen käynnistyessä.
 const books = databases.books.prepare('SELECT id FROM books').all()
 
 for (const book of books) {
@@ -120,7 +119,6 @@ router.post('/:database', getConfig, (request, response) => {
                 })
             }
 
-            // Estetään kaksi samanaikaista lainausta.
             const createLoan = databases.loans.transaction(() => {
                 const currentBook = databases.books.prepare(`
                     SELECT available
