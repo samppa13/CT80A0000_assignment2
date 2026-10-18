@@ -6,7 +6,7 @@ The Library Management App uses Node.js, Express and SQLite. The frontend is ser
 
 ---
 
-## Start the App
+## Start the Application
 
 ### Navigate to application directory:
 ```bash
@@ -18,7 +18,7 @@ cd CT80A0000_assignment2/
 npm install
 ```
 
-### Start the backend:
+### Start the application:
 ```bash
 npm run dev
 ```
