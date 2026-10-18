@@ -23,5 +23,5 @@ npm install
 npm run dev
 ```
 
-### 4. Open the application
+### Open the application
 Open the application in your browser at http://localhost:3000.
